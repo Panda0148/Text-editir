@@ -1,0 +1,96 @@
+// Microsoft Visual C++ генерируем ресурс скрипт.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// генерируется из TEXTINCLUDE 2 ресупса.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// русский ресурс
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// меню 
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "Файл"
+    BEGIN
+        MENUITEM "Открыть (CTRL + O)",             ID_FILE_OPEN
+        MENUITEM "Сохранить  (CTRL + S)",            ID_FILE_SAVE
+        MENUITEM "Сохранить как",                     ID_FILE_SAVEAS
+        MENUITEM "Выход",                        ID_FILE_EXIT
+    END
+    POPUP "Изменения"
+    BEGIN
+        MENUITEM "Изменить шрифт",                 ID_FORMAT_CHANGEFONT
+    END
+    POPUP "Инфо"
+    BEGIN
+    MENUITEM "КР ИУК5-41Б Щербакова А.С.", ID_ABOUT_KRIUK5
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Иконка
+//
+
+// Значок с наименьшим значением идентификатора помещается первым, чтобы обеспечить значок приложения
+//  остается неизменным во всех системах.
+IDI_ICON1               ICON                    "notes.ico"
+
+#endif    // русский ресурс
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// генерируется из TEXTINCLUDE 3 ресурсов.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // не APSTUDIO_INVOKED
+
